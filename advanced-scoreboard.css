@@ -1,0 +1,58 @@
+.as-scoreboard-wrapper {
+	float:left;
+	margin-right: 5px;
+	width:49%;
+}
+.table.as-scoreboard-table thead tr td {
+	padding: 0;
+	border:0;
+	text-align: center;
+}
+.as-scoreboard-details .btn.btn-primary {
+	padding: 0 10px;
+    height: auto;
+    line-height: initial;
+    font-size: 14px;
+}
+.as-team-summary {
+	width:100%;
+}
+.as-scoreboard-head {
+	background: rgba(7,7,7,0.4);
+}
+.as-scoreboard-head td {
+	padding: 10px 0!important;
+	box-sizing: border-box;
+}
+.as-player td {
+	padding: 2px!important;
+	text-align: center;
+	font-size:15px;
+}
+.as-player td:nth-child(2),.as-scoreboard-head td:nth-child(2) {
+	text-align: left;
+}
+tr.as-player.low {
+	background:#209e50;
+}
+tr.as-player.average {
+	background:#206bb9;
+}
+tr.as-player.good {
+	background:#ffcc55;
+}
+tr.as-player.high {
+	background:#f24646;
+}
+tr.as-player.v-high {
+	background:#ee02ff;
+}
+tr.as-player.pro {
+	background:#000;
+}
+.view-selector {
+	margin-right: 7px;
+}
+.view-selector.view-selector-active {
+	text-decoration: underline;
+}
