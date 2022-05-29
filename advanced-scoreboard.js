@@ -234,7 +234,7 @@ BBLog.handle("add.plugin", {
             instance.firstTimeRun(instance);
         }
 
-		$('head').append('<link rel="stylesheet" href="https://battlefield.agency/downloads/advanced-scoreboard.css" type="text/css" />')
+		$('head').append('<link rel="stylesheet" href="https://raw.githubusercontent.com/neutr0nst4r/bblog-plugins/main/advanced-scoreboard.css" type="text/css" />')
 		$('head').append('<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/c3/0.7.11/c3.min.css" type="text/css" />');
 
         // Load charting library
